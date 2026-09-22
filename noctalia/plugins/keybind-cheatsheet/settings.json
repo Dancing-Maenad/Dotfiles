@@ -1,0 +1,702 @@
+{
+  "cheatsheetData": [
+    {
+      "title": "Without Description",
+      "binds": [
+        {
+          "keys": "Super + ESCAPE",
+          "desc": "",
+          "bindId": "|64|Escape|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Escape",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Alt + M",
+          "desc": "",
+          "bindId": "|72|M|000|__lua",
+          "undescribed": true,
+          "_mainKey": "M",
+          "_mods": "Super+Alt",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Z",
+          "desc": "",
+          "bindId": "|64|Z|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Z",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + F",
+          "desc": "",
+          "bindId": "|64|F|000|__lua",
+          "undescribed": true,
+          "_mainKey": "F",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Q",
+          "desc": "",
+          "bindId": "|64|Q|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Q",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + B",
+          "desc": "",
+          "bindId": "|64|B|000|__lua",
+          "undescribed": true,
+          "_mainKey": "B",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + D",
+          "desc": "",
+          "bindId": "|64|D|000|__lua",
+          "undescribed": true,
+          "_mainKey": "D",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + S",
+          "desc": "",
+          "bindId": "|64|S|000|__lua",
+          "undescribed": true,
+          "_mainKey": "S",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + T",
+          "desc": "",
+          "bindId": "|64|T|000|__lua",
+          "undescribed": true,
+          "_mainKey": "T",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + E",
+          "desc": "",
+          "bindId": "|64|E|000|__lua",
+          "undescribed": true,
+          "_mainKey": "E",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + W",
+          "desc": "",
+          "bindId": "|64|W|000|__lua",
+          "undescribed": true,
+          "_mainKey": "W",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + C",
+          "desc": "",
+          "bindId": "|64|C|000|__lua",
+          "undescribed": true,
+          "_mainKey": "C",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + I",
+          "desc": "",
+          "bindId": "|64|I|000|__lua",
+          "undescribed": true,
+          "_mainKey": "I",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + K",
+          "desc": "",
+          "bindId": "|64|K|000|__lua",
+          "undescribed": true,
+          "_mainKey": "K",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + R",
+          "desc": "",
+          "bindId": "|64|R|000|__lua",
+          "undescribed": true,
+          "_mainKey": "R",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + SPACE",
+          "desc": "",
+          "bindId": "|64|Space|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Space",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Alt + L",
+          "desc": "",
+          "bindId": "|72|L|000|__lua",
+          "undescribed": true,
+          "_mainKey": "L",
+          "_mods": "Super+Alt",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + V",
+          "desc": "",
+          "bindId": "|64|V|000|__lua",
+          "undescribed": true,
+          "_mainKey": "V",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Ctrl + Alt + DELETE",
+          "desc": "",
+          "bindId": "|12|Delete|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Delete",
+          "_mods": "Ctrl+Alt",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Alt + H",
+          "desc": "",
+          "bindId": "|72|H|000|__lua",
+          "undescribed": true,
+          "_mainKey": "H",
+          "_mods": "Super+Alt",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + PrtSc",
+          "desc": "",
+          "bindId": "|64|PRINT|000|__lua",
+          "undescribed": true,
+          "_mainKey": "PRINT",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Shift + PrtSc",
+          "desc": "",
+          "bindId": "|1|PRINT|000|__lua",
+          "undescribed": true,
+          "_mainKey": "PRINT",
+          "_mods": "Shift",
+          "_verb": ""
+        },
+        {
+          "keys": "Ctrl + PrtSc",
+          "desc": "",
+          "bindId": "|4|PRINT|000|__lua",
+          "undescribed": true,
+          "_mainKey": "PRINT",
+          "_mods": "Ctrl",
+          "_verb": ""
+        },
+        {
+          "keys": "Ctrl + Alt + PrtSc",
+          "desc": "",
+          "bindId": "|12|PRINT|000|__lua",
+          "undescribed": true,
+          "_mainKey": "PRINT",
+          "_mods": "Ctrl+Alt",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + LEFT",
+          "desc": "",
+          "bindId": "|64|Left|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Left",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + RIGHT",
+          "desc": "",
+          "bindId": "|64|Right|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Right",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + UP",
+          "desc": "",
+          "bindId": "|64|Up|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Up",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + DOWN",
+          "desc": "",
+          "bindId": "|64|Down|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Down",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Shift + LEFT",
+          "desc": "",
+          "bindId": "|65|Left|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Left",
+          "_mods": "Super+Shift",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Shift + RIGHT",
+          "desc": "",
+          "bindId": "|65|Right|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Right",
+          "_mods": "Super+Shift",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Shift + UP",
+          "desc": "",
+          "bindId": "|65|Up|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Up",
+          "_mods": "Super+Shift",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Shift + DOWN",
+          "desc": "",
+          "bindId": "|65|Down|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Down",
+          "_mods": "Super+Shift",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + 1",
+          "desc": "",
+          "bindId": "|64|1|000|__lua",
+          "undescribed": true,
+          "_mainKey": "1",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Shift + 1",
+          "desc": "",
+          "bindId": "|65|1|000|__lua",
+          "undescribed": true,
+          "_mainKey": "1",
+          "_mods": "Super+Shift",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + 2",
+          "desc": "",
+          "bindId": "|64|2|000|__lua",
+          "undescribed": true,
+          "_mainKey": "2",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Shift + 2",
+          "desc": "",
+          "bindId": "|65|2|000|__lua",
+          "undescribed": true,
+          "_mainKey": "2",
+          "_mods": "Super+Shift",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + 3",
+          "desc": "",
+          "bindId": "|64|3|000|__lua",
+          "undescribed": true,
+          "_mainKey": "3",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Shift + 3",
+          "desc": "",
+          "bindId": "|65|3|000|__lua",
+          "undescribed": true,
+          "_mainKey": "3",
+          "_mods": "Super+Shift",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + 4",
+          "desc": "",
+          "bindId": "|64|4|000|__lua",
+          "undescribed": true,
+          "_mainKey": "4",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Shift + 4",
+          "desc": "",
+          "bindId": "|65|4|000|__lua",
+          "undescribed": true,
+          "_mainKey": "4",
+          "_mods": "Super+Shift",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + 5",
+          "desc": "",
+          "bindId": "|64|5|000|__lua",
+          "undescribed": true,
+          "_mainKey": "5",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Shift + 5",
+          "desc": "",
+          "bindId": "|65|5|000|__lua",
+          "undescribed": true,
+          "_mainKey": "5",
+          "_mods": "Super+Shift",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + 6",
+          "desc": "",
+          "bindId": "|64|6|000|__lua",
+          "undescribed": true,
+          "_mainKey": "6",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Shift + 6",
+          "desc": "",
+          "bindId": "|65|6|000|__lua",
+          "undescribed": true,
+          "_mainKey": "6",
+          "_mods": "Super+Shift",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + 7",
+          "desc": "",
+          "bindId": "|64|7|000|__lua",
+          "undescribed": true,
+          "_mainKey": "7",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Shift + 7",
+          "desc": "",
+          "bindId": "|65|7|000|__lua",
+          "undescribed": true,
+          "_mainKey": "7",
+          "_mods": "Super+Shift",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + 8",
+          "desc": "",
+          "bindId": "|64|8|000|__lua",
+          "undescribed": true,
+          "_mainKey": "8",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Shift + 8",
+          "desc": "",
+          "bindId": "|65|8|000|__lua",
+          "undescribed": true,
+          "_mainKey": "8",
+          "_mods": "Super+Shift",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + PAGE_UP",
+          "desc": "",
+          "bindId": "|64|Page_Up|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Page_Up",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + PAGE_DOWN",
+          "desc": "",
+          "bindId": "|64|Page_Down|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Page_Down",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + INSERT",
+          "desc": "",
+          "bindId": "|64|Insert|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Insert",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + DELETE",
+          "desc": "",
+          "bindId": "|64|Delete|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Delete",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Shift + PAGE_UP",
+          "desc": "",
+          "bindId": "|65|Page_Up|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Page_Up",
+          "_mods": "Super+Shift",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Shift + PAGE_DOWN",
+          "desc": "",
+          "bindId": "|65|Page_Down|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Page_Down",
+          "_mods": "Super+Shift",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Shift + INSERT",
+          "desc": "",
+          "bindId": "|65|Insert|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Insert",
+          "_mods": "Super+Shift",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Shift + DELETE",
+          "desc": "",
+          "bindId": "|65|Delete|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Delete",
+          "_mods": "Super+Shift",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Ctrl + LEFT",
+          "desc": "",
+          "bindId": "|68|Left|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Left",
+          "_mods": "Super+Ctrl",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Ctrl + RIGHT",
+          "desc": "",
+          "bindId": "|68|Right|000|__lua",
+          "undescribed": true,
+          "_mainKey": "Right",
+          "_mods": "Super+Ctrl",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + Shift + F2",
+          "desc": "",
+          "bindId": "|65|F2|000|__lua",
+          "undescribed": true,
+          "_mainKey": "F2",
+          "_mods": "Super+Shift",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + F1",
+          "desc": "",
+          "bindId": "|64|F1|000|__lua",
+          "undescribed": true,
+          "_mainKey": "F1",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + F2",
+          "desc": "",
+          "bindId": "|64|F2|000|__lua",
+          "undescribed": true,
+          "_mainKey": "F2",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Super + F3",
+          "desc": "",
+          "bindId": "|64|F3|000|__lua",
+          "undescribed": true,
+          "_mainKey": "F3",
+          "_mods": "Super",
+          "_verb": ""
+        },
+        {
+          "keys": "Vol Up",
+          "desc": "",
+          "bindId": "|0|XF86AudioRaiseVolume|000|__lua",
+          "undescribed": true,
+          "_mainKey": "XF86AudioRaiseVolume",
+          "_mods": "",
+          "_verb": ""
+        },
+        {
+          "keys": "Vol Down",
+          "desc": "",
+          "bindId": "|0|XF86AudioLowerVolume|000|__lua",
+          "undescribed": true,
+          "_mainKey": "XF86AudioLowerVolume",
+          "_mods": "",
+          "_verb": ""
+        },
+        {
+          "keys": "Mute",
+          "desc": "",
+          "bindId": "|0|XF86AudioMute|000|__lua",
+          "undescribed": true,
+          "_mainKey": "XF86AudioMute",
+          "_mods": "",
+          "_verb": ""
+        },
+        {
+          "keys": "Mic Mute",
+          "desc": "",
+          "bindId": "|0|XF86AudioMicMute|000|__lua",
+          "undescribed": true,
+          "_mainKey": "XF86AudioMicMute",
+          "_mods": "",
+          "_verb": ""
+        },
+        {
+          "keys": "Bright Up",
+          "desc": "",
+          "bindId": "|0|XF86MonBrightnessUp|000|__lua",
+          "undescribed": true,
+          "_mainKey": "XF86MonBrightnessUp",
+          "_mods": "",
+          "_verb": ""
+        },
+        {
+          "keys": "Bright Down",
+          "desc": "",
+          "bindId": "|0|XF86MonBrightnessDown|000|__lua",
+          "undescribed": true,
+          "_mainKey": "XF86MonBrightnessDown",
+          "_mods": "",
+          "_verb": ""
+        },
+        {
+          "keys": "Next",
+          "desc": "",
+          "bindId": "|0|XF86AudioNext|000|__lua",
+          "undescribed": true,
+          "_mainKey": "XF86AudioNext",
+          "_mods": "",
+          "_verb": ""
+        },
+        {
+          "keys": "Pause",
+          "desc": "",
+          "bindId": "|0|XF86AudioPause|000|__lua",
+          "undescribed": true,
+          "_mainKey": "XF86AudioPause",
+          "_mods": "",
+          "_verb": ""
+        },
+        {
+          "keys": "Play",
+          "desc": "",
+          "bindId": "|0|XF86AudioPlay|000|__lua",
+          "undescribed": true,
+          "_mainKey": "XF86AudioPlay",
+          "_mods": "",
+          "_verb": ""
+        },
+        {
+          "keys": "Prev",
+          "desc": "",
+          "bindId": "|0|XF86AudioPrev|000|__lua",
+          "undescribed": true,
+          "_mainKey": "XF86AudioPrev",
+          "_mods": "",
+          "_verb": ""
+        }
+      ]
+    }
+  ],
+  "detectedCompositor": "hyprland",
+  "windowWidth": 1400,
+  "windowHeight": 850,
+  "autoHeight": true,
+  "columnCount": 4,
+  "modKeyVariable": "$mod",
+  "hyprlandConfigPath": "~/.config/hypr/hyprland.conf",
+  "hyprlandLuaConfigPath": "~/.config/hypr/hyprland.lua",
+  "hyprlandParserMode": "auto",
+  "niriConfigPath": "~/.config/niri/config.kdl",
+  "mangoConfigPath": "~/.config/mango/config.conf",
+  "mergeSequentialBinds": true,
+  "showUndescribedBinds": true,
+  "splitLargeWorkspaceCategory": true,
+  "workspaceSplitThreshold": 12,
+  "keyColorAlt": "#FF6B6B",
+  "keyColorXF86": "#4ECDC4",
+  "keyColorPrint": "#95E1D3",
+  "keyColorNumeric": "#A8DADC",
+  "keyColorMouse": "#F38181",
+  "keyColorSuper": "",
+  "keyColorCtrl": "",
+  "keyColorShift": "",
+  "keyColorDefault": "#6C757D",
+  "keyLabelColor": "#FFFFFF",
+  "keyTextSuper": "",
+  "keyTextCtrl": "",
+  "keyTextShift": "",
+  "keyTextAlt": "",
+  "keyTextXF86": "",
+  "keyTextPrint": "",
+  "keyTextNumeric": "",
+  "keyTextMouse": "",
+  "keyTextDefault": "",
+  "keyColorMod2": "",
+  "keyColorMod3": "",
+  "keyColorMod5": "",
+  "keyTextMod2": "",
+  "keyTextMod3": "",
+  "keyTextMod5": "",
+  "keyLabelMod2": "",
+  "keyLabelMod3": "",
+  "keyLabelMod5": "",
+  "descriptionTextColor": "",
+  "bindOverrides": {}
+}

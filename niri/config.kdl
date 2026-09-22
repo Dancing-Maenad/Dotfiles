@@ -1,0 +1,34 @@
+// ~/.config/niri/config.kdl
+
+include "noctalia.kdl"
+include "environment.kdl"
+include "input.kdl"
+include "output.kdl"
+include "binds.kdl"
+include "layout.kdl"
+include "workspace.kdl"
+include "window-rule.kdl"
+include "startup.kdl"
+include "animations.kdl"
+//include "layer-rule.kdl"
+
+// Misc settings without a separate file.
+
+hotkey-overlay {
+    skip-at-startup
+    hide-not-bound
+}
+
+overview {
+    backdrop-color "#45475a"
+}
+
+cursor {
+    xcursor-theme "Vimix-cursors"
+    xcursor-size 14
+    hide-after-inactive-ms 10000
+}
+
+debug {
+    honor-xdg-activation-with-invalid-serial
+}

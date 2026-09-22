@@ -1,0 +1,129 @@
+binds {
+    // Window management
+    Mod+Escape  { close-window; }
+    Mod+Alt+M  { quit; }
+    // Mod+Alt+H  { show-hotkey-overlay; }
+    Mod+F      { fullscreen-window; }
+    Mod+Alt+F { maximize-window-to-edges; }
+    Mod+Z { toggle-window-floating; }
+    Mod+O      { toggle-overview; }
+    Mod+Alt+Z { switch-focus-between-floating-and-tiling; }
+    Mod+X { toggle-window-rule-opacity; }
+    Mod+Alt+Escape { toggle-keyboard-shortcuts-inhibit; }
+    
+    // Applications
+    Mod+Q  hotkey-overlay-title="Alacritty"    { spawn "alacritty"; }
+    Mod+B  hotkey-overlay-title="Browser"    { spawn "zen-browser"; }
+    Mod+Alt+B  hotkey-overlay-title="Alt Browser"    { spawn "helium-browser-bin"; }
+    Mod+D  hotkey-overlay-title="Discord"    { spawn "discord"; }
+    Mod+S  hotkey-overlay-title="Steam"    { spawn "steam"; }
+    Mod+T  hotkey-overlay-title="Tidal"    { spawn "google-chrome" "https://tidal.com/feed"; }
+    Mod+E  hotkey-overlay-title="Home Directory"    { spawn "nautilus" "/home/rhosm/"; }
+    Mod+W  hotkey-overlay-title="Text Editor"    { spawn "gnome-text-editor"; }
+    Mod+C  hotkey-overlay-title="Calculator"    { spawn "gnome-calculator"; }
+    Mod+I  hotkey-overlay-title="Input Remapper"    { spawn "input-remapper-gtk"; }
+    Mod+Alt+P  hotkey-overlay-title="Btop"    { spawn "alacritty" "-e" "btop"; }
+    Mod+K  hotkey-overlay-title="Krita"    { spawn "krita"; }
+    Mod+R  hotkey-overlay-title="RedNotebook"    { spawn "rednotebook"; }
+    Mod+F11 hotkey-overlay-title="Desktop Wallpapers"    { spawn "waypaper"; }
+    Mod+V  hotkey-overlay-title="Foundry VTT"    { spawn "foundryvtt"; }
+    Mod+P  hotkey-overlay-title="ProtonVPN"    { spawn "protonvpn-app"; }
+        
+    // Noctalia shell
+    Menu hotkey-overlay-title="App Launcher" { spawn "noctalia" "msg" "panel-toggle" "launcher"; }
+    Mod+Alt+L hotkey-overlay-title="Lock Screen" { spawn "noctalia" "msg" "session" "lock"; }
+    Mod+Alt+V     hotkey-overlay-title="Clipboard" { spawn "noctalia" "msg" "panel-toggle" "clipboard"; }
+    Ctrl+Alt+Delete hotkey-overlay-title="Session/Power Menu" { spawn "noctalia" "msg" "panel-toggle" "session"; }
+    Mod+Alt+H { spawn "noctalia" "msg" "panel-toggle" "kenn/keybind-cheatsheet:cheatsheet"; }
+     
+    // Screenshots
+    Mod+Print  hotkey-overlay-title="Screenshot Screen" { screenshot-screen; }
+    Shift+Print hotkey-overlay-title="Screenshot Window" { screenshot-window; }
+    Ctrl+Print hotkey-overlay-title="Screenshot Selection" { screenshot; }
+    Mod+Ctrl+Print hotkey-overlay-title="Screenshot Directory" { spawn "nautilus" "/home/rhosm/Pictures/Screenshots"; }
+    
+    // Quick nautilus directories
+    Mod+Ctrl+D hotkey-overlay-title="Documents Directory" { spawn "nautilus" "/home/rhosm/Documents/"; }
+    Mod+Ctrl+F hotkey-overlay-title="Downloads Directory" { spawn "nautilus" "/home/rhosm/Downloads/"; } 
+    Mod+Ctrl+P hotkey-overlay-title="Pictures Directory" { spawn "nautilus" "/home/rhosm/Pictures/"; }
+    Mod+Ctrl+V hotkey-overlay-title="Videos Directory" { spawn "nautilus" "/home/rhosm/Videos/"; }
+    Mod+Ctrl+M hotkey-overlay-title="Music Directory" { spawn "nautilus" "/home/rhosm/Music/"; }
+    Mod+Ctrl+R hotkey-overlay-title="Recent Files" { spawn "nautilus" "recent:///"; }
+    
+    // Column/window sizing
+    Mod+F1 hotkey-overlay-title="Column Width" { switch-preset-column-width; }
+    Mod+F2 hotkey-overlay-title="Window Width" { switch-preset-window-width; }
+    Mod+F3 hotkey-overlay-title="Window Height" { switch-preset-window-height; }
+    
+    // Focus navigation
+    Mod+Left  { focus-column-left; }
+    Mod+Right { focus-column-right; }
+    Mod+Home  { focus-column-first; }
+    Mod+End   { focus-column-last; }
+    Mod+Up    { focus-window-up; }
+    Mod+Down  { focus-window-down; }
+    Mod+Page_Up   { focus-workspace-up; }
+    Mod+Page_Down { focus-workspace-down; }
+    Mod+Insert  { focus-monitor-left; }
+    Mod+Delete { focus-monitor-right; }
+    
+    // Move windows/columns
+    Mod+Shift+Insert { move-window-to-monitor-left; }
+    Mod+Shift+Delete { move-window-to-monitor-right; }
+    Mod+Shift+Page_Up   { move-window-to-workspace-up; }
+    Mod+Shift+Page_Down { move-window-to-workspace-down; }
+    Mod+Shift+Home { move-column-to-first; }
+    Mod+Shift+End  { move-column-to-last; }
+    Mod+Shift+Left  { move-column-left; }
+    Mod+Shift+Right { move-column-right; }
+    Mod+Alt+Left { consume-or-expel-window-left; }
+    Mod+Alt+Right  { consume-or-expel-window-right; }
+    Mod+Alt+C { center-window; }
+      
+    // Workspace switching
+    Mod+Alt+1 { focus-workspace "🌐"; }
+    Mod+Alt+2 { focus-workspace "👥"; }
+    Mod+Alt+3 { focus-workspace "🎮"; }
+    Mod+Alt+4 { focus-workspace "🎵"; }
+    Mod+1 { focus-workspace 1; }
+    Mod+2 { focus-workspace 2; }
+    Mod+3 { focus-workspace 3; }
+    Mod+4 { focus-workspace 4; }
+    Mod+5 { focus-workspace 5; }
+    Mod+6 { focus-workspace 6; }
+    Mod+KP_End { focus-workspace 1; }
+    Mod+KP_Down { focus-workspace 2; }
+    Mod+KP_Next { focus-workspace 3; }
+    Mod+KP_Left { focus-workspace 4; }
+    Mod+KP_Begin { focus-workspace 5; }
+    Mod+KP_Right { focus-workspace 6; }
+    
+    // Move to workspace
+    Mod+Shift+Alt+1 { move-window-to-workspace "🌐"; }
+    Mod+Shift+Alt+2 { move-window-to-workspace "👥"; }
+    Mod+Shift+Alt+3 { move-window-to-workspace "🎮"; }
+    Mod+Shift+Alt+4 { move-window-to-workspace "🎵"; }
+    Mod+Shift+1 { move-window-to-workspace 1; }
+    Mod+Shift+2 { move-window-to-workspace 2; }
+    Mod+Shift+3 { move-window-to-workspace 3; }
+    Mod+Shift+4 { move-window-to-workspace 4; }
+    Mod+Shift+5 { move-window-to-workspace 5; }
+    Mod+Shift+6 { move-window-to-workspace 6; }
+    Mod+Shift+KP_End { move-window-to-workspace 1; }
+    Mod+Shift+KP_Down { move-window-to-workspace 2; }
+    Mod+Shift+KP_Next { move-window-to-workspace 3; }
+    Mod+Shift+KP_Left { move-window-to-workspace 4; }
+    Mod+Shift+KP_Begin { move-window-to-workspace 5; }
+    Mod+Shift+KP_Right { move-window-to-workspace 6; }
+    
+    // Multimedia keys
+    XF86AudioRaiseVolume  allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "5%+"; }
+    XF86AudioLowerVolume  allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "5%-"; }
+    XF86AudioMute         allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle"; }
+    XF86AudioMicMute      allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SOURCE@" "toggle"; }
+    XF86MonBrightnessUp   allow-when-locked=true { spawn "brightnessctl" "-e4" "-n2" "set" "5%+"; }
+    XF86MonBrightnessDown allow-when-locked=true { spawn "brightnessctl" "-e4" "-n2" "set" "5%-"; }
+    XF86AudioNext         allow-when-locked=true { spawn "playerctl" "next"; }
+    XF86AudioPlay         allow-when-locked=true { spawn "playerctl" "play-pause"; }
+    XF86AudioPrev         allow-when-locked=true { spawn "playerctl" "previous"; }
+}

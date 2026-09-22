@@ -1,0 +1,25 @@
+ environment {
+    XCURSOR_SIZE "18"
+    XCURSOR_THEME "Vimix-cursors"
+    BROWSER "zen-browser"
+    DE "generic"
+    
+    // Nvidia
+    LIBVA_DRIVER_NAME "nvidia"
+    __GLX_VENDOR_LIBRARY_NAME "nvidia"
+    
+    // Qt/Wayland
+    QT_QPA_PLATFORM "wayland"
+    QT_QPA_PLATFORMTHEME "gtk3"
+    QT_WAYLAND_DISABLE_WINDOWDECORATION "1"
+    
+    // XDG
+    XDG_SESSION_TYPE "wayland"
+    XDG_CURRENT_DESKTOP "niri"
+    XDG_SESSION_DESKTOP "niri"
+    XDG_PICTURES_DIR "/home/rhosm/Pictures/Screenshots"
+    
+    // Other
+    GDK_BACKEND "wayland,x11"
+    ELECTRON_OZONE_PLATFORM_HINT "auto"
+}

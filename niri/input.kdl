@@ -1,0 +1,15 @@
+input {
+    focus-follows-mouse max-scroll-amount="5%"
+    workspace-auto-back-and-forth
+    warp-mouse-to-focus mode="center-xy"
+    keyboard {
+        numlock
+        xkb {
+            layout "us"
+            variant "altgr-intl" 
+        }
+    }
+    tablet {
+        map-to-output "PNP(AOC) Q27B35E 2S6R6HA008726"
+    }
+}

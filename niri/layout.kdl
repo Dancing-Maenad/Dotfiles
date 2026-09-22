@@ -1,0 +1,58 @@
+layout {
+    gaps 4
+    background-color "transparent"
+    center-focused-column "never"
+    
+    preset-column-widths {
+        proportion 0.33333
+        proportion 0.5
+        proportion 0.66667
+        proportion 0.99999
+    }
+    preset-window-heights {
+        proportion 0.33333
+        proportion 0.5
+        proportion 0.66667
+        proportion 0.99999
+    }
+    
+    focus-ring {
+        on
+        active-gradient from="#74c7ec" to="#cba6f7" angle=0
+        inactive-color "#11111b"
+        width 6
+    }
+    border {
+        on
+        active-gradient from="#74c7ec" to="#cba6f7" angle=0
+        inactive-color "#11111b"
+        width 6
+        }
+    
+    shadow {
+       // off
+        softness 30
+        spread 5
+        offset x=0 y=5
+        color "#0007"
+    }
+    
+    struts { }
+}
+
+gestures {
+    hot-corners {
+        // off
+    }
+}
+
+cursor {
+    xcursor-theme "capitaine-cursors-light"
+    xcursor-size 24
+    hide-when-typing
+}
+
+overview {
+    zoom 0.75
+}
+

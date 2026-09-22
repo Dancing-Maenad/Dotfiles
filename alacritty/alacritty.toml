@@ -1,0 +1,42 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/noctalia.toml"
+]
+
+[window]
+opacity = 0.75
+blur = true
+decorations = "None"
+padding = { x = 5, y = 5 }
+
+[font]
+normal = { family = "CaskaydiaCove Nerd Font Mono", style = "Regular" }
+size = 12
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Left"
+mods = "Control | Shift"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Up"
+mods = "Control | Shift"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Down"
+mods = "Control | Shift"
+
+[[keyboard.bindings]]
+action = "ScrollPageUp"
+key = "PageUp"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ScrollPageDown"
+key = "PageDown"
+mods = "Shift"

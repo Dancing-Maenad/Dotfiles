@@ -1,0 +1,15 @@
+workspace "🌐" {
+    open-on-output "PNP(AOC) Q27B35E 2S6R6HA008726"
+}
+
+workspace "👥" {
+    open-on-output "Ancor Communications Inc ASUS VP278 GBLMTF073880"
+}
+
+workspace "🎮" {
+    open-on-output "PNP(AOC) Q27B35E 2S6R6HA008726"
+}
+
+workspace "🎵" {
+    open-on-output "Ancor Communications Inc ASUS VP278 GBLMTF073880"
+}

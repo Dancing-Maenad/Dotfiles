@@ -1,0 +1,161 @@
+window-rule {
+    geometry-corner-radius 12
+    clip-to-geometry true
+    opacity 0.95
+    draw-border-with-background false
+    open-focused true
+    default-column-width { proportion 0.5; }
+    
+    focus-ring {
+        on
+        width 1
+    }
+    
+    border {
+        on
+        width 1
+    }
+}
+
+// Active window gets slightly more opacity
+window-rule {
+    match is-active=true
+    opacity 0.98
+}
+
+// Application-specific rules
+window-rule {
+    match app-id="zen"
+    open-on-workspace "🌐"
+    open-maximized true
+}
+
+window-rule {
+    match app-id="discord"
+    open-on-workspace "👥"
+    open-maximized true
+}
+
+window-rule {
+    match app-id="steam"
+    open-on-workspace "🎮"
+    open-maximized true
+}
+
+window-rule {
+    match app-id="google-chrome"
+    open-on-workspace "🎵"
+    open-maximized-to-edges true
+}
+
+window-rule {
+    match app-id="^steam$" title="^Friends List$"
+    open-floating true
+    default-column-width { fixed 300; }
+    default-window-height { fixed 800; }
+}
+
+// Floating windows
+window-rule {
+    match app-id=r#"org.quickshell$"#
+    open-floating true
+}
+
+window-rule {
+    match app-id=r#"^org\.gnome\.Calendar$"#
+    open-floating true
+    default-floating-position x=0 y=0 relative-to="top-right"
+}
+
+window-rule {
+    match app-id=r#"^org\.pulseaudio\.pavucontrol$"#
+    open-floating true
+    default-floating-position x=0 y=0 relative-to="top-left"
+}
+
+window-rule {
+    match app-id=r#"^input-remapper-gtk$"#
+    open-floating true
+}
+
+window-rule {
+    match app-id=r#"^lxqt-policykit-agent$"#
+    open-floating true
+}
+
+//window-rule {
+//   match app-id="com.mitchellh.ghostty"
+//    open-floating true
+//    opacity 0.9
+//    background-effect {
+//        blur true
+//        xray false
+//    }
+//    default-column-width { fixed 1600; }
+//    default-window-height { fixed 1000; }
+//}
+
+window-rule {
+    match app-id="Alacritty"
+    open-floating true
+    opacity 0.8
+    background-effect {
+        blur true
+        xray false
+    }
+    default-column-width { fixed 1600; }
+    default-window-height { fixed 1000; }
+}
+
+window-rule {
+    match app-id="waypaper"
+    open-floating true
+    opacity 1.0
+    default-column-width { fixed 1600; }
+    default-window-height { fixed 1000; }
+}
+
+// Video players need full opacity
+window-rule {
+    match app-id="io.github.celluloid_player.Celluloid"
+    opacity 1.0
+}
+
+window-rule {
+    match app-id="foundryvtt"
+    opacity 1.0
+}
+
+window-rule {
+    match app-id="zen" title=r#".*YouTube.*"#
+    match app-id="helium" title=r#".*YouTube.*"#
+    opacity 1.0
+}
+
+window-rule {
+    match app-id=r#"krita$"#
+    opacity 1.0
+    draw-border-with-background true 
+}
+
+window-rule {
+    match app-id="org.gnome.Loupe"
+    opacity 1.0  // Images should be fully opaque
+}
+
+window-rule {
+    match app-id=r#"^krita$"# title=r#"(Docker|Palette|Brush).*"#
+    open-floating true
+}
+
+window-rule {
+    match app-id=r#"nautilus"# title=r#"File Operation Progress"#
+    open-floating true
+}
+
+window-rule {
+    match app-id=r#"^steam_app_.*"#  // All Steam games
+    open-fullscreen true
+    opacity 1.0
+    open-on-workspace "🎮"
+}

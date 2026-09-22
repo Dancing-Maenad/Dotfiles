@@ -1,0 +1,13 @@
+output "PNP(AOC) Q27B35E 2S6R6HA008726" {
+    scale 1.0
+    transform "normal"
+    variable-refresh-rate
+    focus-at-startup
+    position x=0 y=0
+}
+
+output "Ancor Communications Inc ASUS VP278 GBLMTF073880" {
+    scale 1.0
+    transform "normal"
+    position x=2560 y=0
+}

@@ -1,0 +1,8 @@
+spawn-at-startup "/usr/libexec/lxqt-policykit-agent"
+spawn-at-startup "awww-daemon"
+spawn-at-startup "input-remapper-control" "--command" "autoload"
+spawn-at-startup "swayidle" "-w"
+spawn-at-startup "noctalia"
+spawn-at-startup "wl-paste" "--type" "text" "--watch" "cliphist" "store"
+spawn-at-startup "wl-paste" "--type" "image" "--watch" "cliphist" "store"
+spawn-at-startup "discord" "--start-minimized" "--password-store=basic"
