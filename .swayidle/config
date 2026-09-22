@@ -1,4 +1,4 @@
 timeout 300 'noctalia msg session lock'
-timeout 600 'niri msg action power-off-monitors' resume 'niri msg action power-on-monitors'
+timeout 900 'mmsg dispatch sleep_monitor' resume 'mmsg dispatch wakeup_monitor'
 before-sleep 'noctalia msg session lock'
 
