@@ -1,7 +1,8 @@
 font-family = "CaskaydiaCove Nerd Font Mono"
 background-image=~/Pictures/Wallpapers/william_morris_leaves.png
-background-image-opacity=0.85
-background-opacity = 0.85
+background-image-fit=none
+#background-image-opacity=0.9
+background-opacity = 0.9
 window-decoration = client
 theme = noctalia
 
