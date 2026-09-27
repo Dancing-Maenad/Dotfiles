@@ -1,0 +1,7 @@
+{
+    "version": "2.2.1",
+    "autoload": {
+        "Corsair Corsair STRAFE RGB Gaming Keyboard": "new preset",
+        "Razer Razer Naga Left Handed Edition": "new preset"
+    }
+}

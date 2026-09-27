@@ -13,6 +13,9 @@ declare -a CONFIGS=(
     "$HOME/.config/ghostty"
     "$HOME/.config/niri"
     "$HOME/.config/mango"
+    "$HOME/.config/nvim"
+    "$HOME/.config/input-remapper-2/"
+    "$HOME/.config/hyfetch.json"
 )
 
 echo "Starting dotfiles copy and link process..."

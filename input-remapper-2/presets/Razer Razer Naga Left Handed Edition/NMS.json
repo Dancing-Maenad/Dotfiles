@@ -1,0 +1,28 @@
+[
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 27,
+                "origin_hash": "568c34bdfe142eec1645707b9a84da9e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_LEFT",
+        "name": "Left",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 26,
+                "origin_hash": "568c34bdfe142eec1645707b9a84da9e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_RIGHT",
+        "name": "Right",
+        "mapping_type": "key_macro"
+    }
+]
