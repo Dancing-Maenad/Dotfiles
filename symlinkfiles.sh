@@ -6,6 +6,9 @@ DOTFILES_DIR="$HOME/Git/dotfiles"
 # List your configuration paths here. Easily add more as needed!
 declare -a CONFIGS=(
     "$HOME/.swayidle"
+    "$HOME/.zshrc"
+    "$HOME/.config/starship.toml"
+    "$HOME/.config/fish"
     "$HOME/.config/noctalia"
     "$HOME/.config/alacritty"
     "$HOME/.config/hypr"
@@ -14,7 +17,7 @@ declare -a CONFIGS=(
     "$HOME/.config/niri"
     "$HOME/.config/mango"
     "$HOME/.config/nvim"
-    "$HOME/.config/input-remapper-2/"
+    "$HOME/.config/input-remapper-2"
     "$HOME/.config/hyfetch.json"
 )
 
