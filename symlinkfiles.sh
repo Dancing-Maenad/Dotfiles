@@ -19,6 +19,7 @@ declare -a CONFIGS=(
     "$HOME/.config/nvim"
     "$HOME/.config/input-remapper-2"
     "$HOME/.config/hyfetch.json"
+    "$HOME/.config/kitty"
 )
 
 echo "Starting dotfiles copy and link process..."

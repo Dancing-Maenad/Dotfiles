@@ -68,13 +68,6 @@ if [[ -f /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]]; then
   source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
 
-# 3. Autojump
-#if [[ -f /usr/share/autojump/autojump.zsh ]]; then
-#  source /usr/share/autojump/autojump.zsh
-#elif [[ -f /etc/profile.d/autojump.zsh ]]; then
-#  source /etc/profile.d/autojump.zsh
-#fi
-
 # 3. Fzf/fd-find
 #
 # # Source Fedora's system-wide fzf scripts if available
@@ -108,33 +101,20 @@ backup() {
 # ==========================================
 # ALIASES
 # ==========================================
+
+# Eza
 alias ls='eza -al --color=always --group-directories-first --icons'
 alias la='eza -a --color=always --group-directories-first --icons'
 alias ll='eza -l --color=always --group-directories-first --icons'
 alias lt='eza -aT --color=always --group-directories-first --icons'
 alias l.="eza -a | grep -e '^\.'"
 
-alias ..='cd ..'
-alias ...='cd ../..'
-alias ....='cd ../../..'
-alias .....='cd ../../../..'
-alias ......='cd ../../../../..'
-
-alias grubup="sudo grub-mkconfig -o /boot/grub/grub.cfg"
-alias tarnow='tar -acf '
-alias untar='tar -zxvf '
-alias wget='wget -c '
-alias psmem='ps auxf | sort -nr -k 5'
-alias psmem11='ps auxf | sort -nr -k 4 | head -10'
-alias dir='dir --color=auto'
-alias vdir='vdir --color=auto'
-alias grep='grep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias egrep='egrep --color=auto'
-alias hw='hwinfo --short'
-alias jctl="journalctl -p 4 -xb"
-alias cls='clear'
-alias reload='source ~/.zshrc'
+# Z
+alias ..='z ..'
+alias ...='z ../..'
+alias ....='z ../../..'
+alias .....='z ../../../..'
+alias ......='z ../../../../..'
 
 # DNF
 alias d='sudo dnf'
@@ -157,7 +137,24 @@ alias glo='git log --oneline --graph --decorate'
 # My random commands
 alias nv='nvim'
 alias dots='z ~/Git/dotfiles/'
-alias home='z ~' 
+alias home='z ~'
+alias grubup="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias tarnow='tar -acf '
+alias untar='tar -zxvf '
+alias wget='wget -c '
+alias psmem='ps auxf | sort -nr -k 5'
+alias psmem11='ps auxf | sort -nr -k 4 | head -10'
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+alias hw='hwinfo --short'
+alias jctl="journalctl -p 4 -xb"
+alias cls='clear'
+alias reload='source ~/.zshrc'
+
+
 # Initialisations
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
