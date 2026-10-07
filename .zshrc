@@ -9,13 +9,13 @@
 # ==========================================
 typeset -U path PATH
 path=(
+  $HOME/.local/bin
+  $HOME/Applications/depot_tools
   /usr/local/bin
   /usr/bin
   /bin
   /usr/sbin
   /sbin
-  $HOME/.local/bin
-  $HOME/Applications/depot_tools
   $path
 )
 export PATH
@@ -111,6 +111,22 @@ bindkey '^[OA' up-line-or-beginning-search
 bindkey '^[[B' down-line-or-beginning-search
 bindkey '^[OB' down-line-or-beginning-search
 bindkey '^[[C' forward-word
+
+# Delete, Home, End
+bindkey '^[[3~' delete-char
+bindkey '^[[H'  beginning-of-line
+bindkey '^[OH'  beginning-of-line
+bindkey '^[[F'  end-of-line
+bindkey '^[OF'  end-of-line
+
+# Ctrl+arrows and Ctrl+Delete
+bindkey '^[[1;5C' forward-word
+bindkey '^[[1;5D' backward-word
+bindkey '^[[3;5~' kill-word
+
+# Page Up / Page Down
+bindkey '^[[5~' beginning-of-buffer-or-history
+bindkey '^[[6~' end-of-buffer-or-history
 
 # Edit current command line in $EDITOR
 autoload -Uz edit-command-line
@@ -263,6 +279,7 @@ alias gpu='git push'
 alias glo='git log --oneline --graph --decorate'
 
 # My random commands
+alias ki='kitten icat'
 alias nv='nvim'
 alias dots='z ~/Git/dotfiles/'
 alias home='z ~'
