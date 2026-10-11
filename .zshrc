@@ -27,6 +27,8 @@ rehash
 # to the condition below.
 if [[ -o interactive && $PWD == $HOME ]] && command -v hyfetch &> /dev/null; then
   hyfetch
+#  fastfetch --kitty-direct ~/Pictures/mintyforcows.png --logo-width 65
+#  echo "Wheek! Wheek! Have you fed us a treat?" | cowsay -f ~/.cows/guineapig.cow
 fi
 
 # Format man pages using bat & col
@@ -298,6 +300,11 @@ alias hw='hwinfo --short'
 alias jctl="journalctl -p 4 -xb"
 alias cls='clear'
 alias reload='source ~/.zshrc'
+
+# Fun
+alias gpig='echo "Wheek! Wheek! Feed us a treat!" | cowsay -f ~/.cows/guineapig.cow'
+alias gpigl='echo "¡Lechuga, señorita, por favor!" | cowsay -f ~/.cows/guineapig.cow'
+alias gpigb='echo "Happiness is a warm guinea!" | cowsay -f ~/.cows/guineapig.cow'
 
 # Global aliases (use anywhere in a command) and suffix aliases
 alias -g G='| grep -i'
