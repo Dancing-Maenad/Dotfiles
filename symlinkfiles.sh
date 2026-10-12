@@ -38,6 +38,9 @@ while IFS= read -r line || [ -n "$line" ]; do
     [[ $line == "~/"* ]] && line="$HOME/${line:2}"
     line="${line//\$HOME/$HOME}"
 
+    # Drop trailing slashes: "dir/" makes ln fail and hides symlinks from -L
+    while [[ $line == */ && $line != "/" ]]; do line="${line%/}"; done
+
     if [[ $line != /* ]]; then
         echo "[INVALID] Ignoring '$line' (use an absolute path, ~/... or \$HOME/...)"
         continue
@@ -65,6 +68,12 @@ for src in "${CONFIGS[@]}"; do
             continue
         fi
 
+        # Never process a path that already points at its own repo copy
+        if [ "$src" -ef "$dest" ]; then
+            echo "[SKIP] $src is already the repo copy."
+            continue
+        fi
+
         echo "[PROCESS] Handling $name..."
 
         # Replace any existing repo copy of a directory so stale files don't linger
@@ -80,12 +89,21 @@ for src in "${CONFIGS[@]}"; do
         fi
         echo "  -> Copied $name to $dest"
 
-        # Remove original local folder/file to prepare for symlinking
-        rm -rf "$src"
+        # Move the original aside (not deleted yet) to free up the path
+        old="$src.dotfiles-old"
+        rm -rf "$old"
+        mv -- "$src" "$old"
 
-        # Create the outward symlink from system path pointing into the repo
-        ln -s "$dest" "$src"
-        echo "  -> Linked $src -> $dest"
+        # Create the outward symlink from system path pointing into the repo.
+        # Only delete the original once the link really exists; otherwise
+        # put it back.
+        if ln -s "$dest" "$src"; then
+            rm -rf "$old"
+            echo "  -> Linked $src -> $dest"
+        else
+            mv -- "$old" "$src"
+            echo "  !! Link failed, restored the original at $src"
+        fi
 
     else
         echo "[NOT FOUND] Skipping $src (does not exist on system)."

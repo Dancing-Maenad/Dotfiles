@@ -184,6 +184,10 @@ export FZF_CTRL_T_OPTS="--preview 'bat --color=always --style=numbers --line-ran
 export FZF_ALT_C_COMMAND='fd --type d --strip-cwd-prefix --hidden --follow --exclude .git'
 export FZF_ALT_C_OPTS="--preview 'eza --tree --level=2 --icons --color=always {}'"
 
+# fzf-tab: auto-clone on first run, update with `zsh-update`
+[[ -d ~/.zsh/fzf-tab ]] || git clone --depth=1 https://github.com/Aloxaf/fzf-tab ~/.zsh/fzf-tab
+alias zsh-update='git -C ~/.zsh/fzf-tab pull'
+
 # Optional: fzf-tab (git clone https://github.com/Aloxaf/fzf-tab ~/.zsh/fzf-tab)
 # Must load after compinit and before autosuggestions/syntax-highlighting
 if [[ -f ~/.zsh/fzf-tab/fzf-tab.plugin.zsh ]]; then
