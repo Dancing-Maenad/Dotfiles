@@ -1,0 +1,181 @@
+# herdr config, based on kitty.conf
+# Save as ~/.config/herdr/config.toml
+# Compare with the defaults:   herdr --default-config
+# Apply changes to a running server:   herdr server reload-config
+# Invalid values fall back to defaults and show a startup warning.
+
+# Skip the first-run setup flow
+onboarding = false
+
+# ==========================================
+# Terminal
+# ==========================================
+[terminal]
+# Like kitty's --cwd=current: new panes and tabs start where the source pane is
+new_cwd = "follow"
+# Keeps `kitten icat` (your `ki` alias) working inside herdr panes
+kitty_graphics = true
+
+# ==========================================
+# Keybindings
+# ==========================================
+# NOTE: kitty receives keys before herdr does. The direct chords below only
+# work if you comment out the matching lines in kitty.conf (see the notes).
+[keys]
+
+# Core and app
+# ctrl+b is unused in your kitty config. Avoid ctrl+space: your zsh binds it
+# to autosuggest-accept.
+prefix = "f23"
+help = "prefix+h"
+settings = "prefix+s"
+reload_config = "prefix+alt+r"
+detach = "prefix+d"
+goto = "prefix+g"
+open_notification_target = "prefix+o"
+toggle_sidebar = "prefix+b"
+remote_image_paste = "ctrl+v"
+
+# Workspaces
+new_workspace = "prefix+shift+n"
+rename_workspace = "prefix+shift+w"
+close_workspace = "prefix+shift+c"
+workspace_picker = "prefix+w"
+previous_workspace = "prefix+alt+p"
+next_workspace = "prefix+alt+n"
+switch_workspace = "prefix+shift+1..9"
+new_worktree = "prefix+shift+t"
+open_worktree = "prefix+shift+o"
+remove_worktree = "prefix+shift+r"
+
+# Tabs (kitty used ctrl+shift+[ and ]; those two are kept free here)
+new_tab = "prefix+a"
+rename_tab = "prefix+t"
+close_tab = "prefix+c"
+previous_tab = "prefix+p"
+next_tab     = "prefix+n"
+switch_tab   = "prefix+1..9"
+move_tab_previous = "prefix+ctrl+p"
+move_tab_next = "prefix+ctrl+n"
+
+# Panes
+focus_pane_left  = "ctrl+alt+left"
+focus_pane_down  = "ctrl+alt+down"
+focus_pane_up    = "ctrl+alt+up"
+focus_pane_right = "ctrl+alt+right"
+swap_pane_left = "ctrl+shift+left"
+swap_pane_down = "ctrl+shift+down"
+swap_pane_up = "ctrl+shift+up"
+swap_pane_right = "ctrl+shift+right"
+cycle_pane_next = "prefix+tab"
+cycle_pane_previous = "prefix+shift+tab"
+last_pane = "prefix+backspace"
+split_vertical = "prefix+shift+v"
+split_horizontal = "prefix+shift+h"
+close_pane = "prefix+x"
+zoom = "prefix+z"
+rename_pane = "prefix+shift+p"
+resize_mode = "prefix+r"
+resize_pane_left  = "ctrl+shift+alt+left"
+resize_pane_down  = "ctrl+shift+alt+down"
+resize_pane_up    = "ctrl+shift+alt+up"
+resize_pane_right = "ctrl+shift+alt+right"
+edit_scrollback = "prefix+e"
+clear_pane = "prefix+ctrl+k"
+
+# Agents
+previous_agent = "prefix+ctrl+alt+p"
+next_agent = "prefix+ctrl+alt+n"
+focus_agent = "prefix+alt+1..9"
+
+# Navigate mode
+navigate_workspace_up = "k"
+navigate_workspace_down = "j"
+navigate_pane_left = "h"
+navigate_pane_down = "down"
+navigate_pane_up = "up"
+navigate_pane_right = "l"
+
+
+# lazygit in a popup (your `lg` alias). Remove if lazygit isn't installed.
+[[keys.command]]
+key = "prefix+alt+g"
+type = "popup"
+command = "lazygit"
+description = "run lazygit"
+width = "80%"
+height = "80%"
+
+# Scratch terminal in a popup
+[[keys.command]]
+key = "prefix+ctrl+t"
+type = "popup"
+command = "exec \"${SHELL:-sh}\""
+description = "open scratch terminal"
+width = "80%"
+height = "80%"
+
+# ==========================================
+# UI
+# ==========================================
+[ui]
+# kitty: copy_on_select clipboard
+copy_on_select = true
+# kitty: confirm_os_window_close -1 (this is the closest herdr setting)
+confirm_close = true
+# kitty's new tab never asked for a name
+prompt_new_tab_name = false
+
+# kitty: tab_bar_edge top, tab_bar_min_tabs 2
+tab_bar_position = "top"
+hide_tab_bar_when_single_tab = true
+# Shows a ZOOM pill while a pane is zoomed
+tab_bar_right = [{ type = "zoom" }]
+
+# kitty: draw_minimal_borders yes (borders only between panes, no outer frame)
+pane_borders = "auto"
+pane_gaps = false
+pane_outer_borders = false
+# kitty has no scrollbars
+pane_scrollbars = false
+
+# Uncomment to start with the workspace sidebar collapsed (prefix+b toggles it)
+# sidebar_start_collapsed = true
+
+# Accent colour. The default follows your terminal palette; to hard-code one:
+# accent = "#b7bdf8"
+
+[ui.toast]
+# Notifications for agents that finish or need input (not for ordinary
+# commands). "system" uses the OS notification service (Noctalia). If nothing
+# appears, try "terminal" or "herdr".
+delivery = "system"
+delay_seconds = 1
+
+# ==========================================
+# Advanced
+# ==========================================
+[advanced]
+# BYTES per pane, not lines (default is 10 MB). Roughly your 10000 lines, with room.
+scrollback_limit_bytes = 20000000
+
+[theme.custom]
+accent = "#b7bdf8"
+panel_bg = "reset"
+sidebar_bg = "reset"
+active_row_bg = "#3e435b"
+selection_bg = "#474c67"
+surface0 = "#3e435b"
+surface1 = "#474c67"
+surface_dim = "#1c1f2d"
+overlay0 = "#6e738d"
+overlay1 = "#a5adcb"
+text = "#cad3f5"
+subtext0 = "#a5adcb"
+mauve = "#f5bde6"
+green = "#a6da95"
+yellow = "#eed49f"
+red = "#ed8796"
+blue = "#8aadf4"
+teal = "#8bd5ca"
+peach = "#edab87"
