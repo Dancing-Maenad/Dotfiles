@@ -519,3 +519,305 @@
 2026-10-15T23:21:17.280526Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
 2026-10-15T23:21:17.280528Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
 2026-10-15T23:21:22.411781Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-15T23:22:25.141427Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-15T23:22:25.141446Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-15T23:22:25.141465Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-15T23:22:25.141467Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-15T23:22:28.306723Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-15T23:22:28.306746Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-15T23:22:28.306766Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-15T23:22:28.306768Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-15T23:22:33.439344Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-15T23:44:54.333174Z  INFO herdr::server::headless: client connected client_id=14 cols=169 rows=61 cell_width_px=9 cell_height_px=20 surface_active=true render_encoding=SemanticFrame
+2026-10-15T23:45:17.814321Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=7 rows=62 cols=169 scrollback_limit_bytes=20000000
+2026-10-15T23:45:17.815964Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=7 pid=188555
+2026-10-15T23:45:17.816037Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t2"
+2026-10-15T23:45:23.288370Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json backup_path=/home/rhosm/.config/herdr/session-snapshots/session-000000000000000000001792107922819011161-137129-0.json
+2026-10-15T23:45:23.606224Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-15T23:45:34.864328Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-15T23:45:34.864379Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-15T23:45:40.291094Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-15T23:48:09.586551Z  INFO herdr::server::headless: client detached client_id=14
+2026-10-15T23:49:18.135409Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-16T00:12:39.417205Z  INFO herdr::server::headless: client connected client_id=16 cols=169 rows=44 cell_width_px=9 cell_height_px=20 surface_active=true render_encoding=SemanticFrame
+2026-10-16T00:13:57.319764Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t2"
+2026-10-16T00:13:57.319823Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t2"
+2026-10-16T00:14:00.387472Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t2"
+2026-10-16T00:14:00.390971Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=7 status="ExitStatus { code: 1, signal: None }"
+2026-10-16T00:14:00.394992Z  INFO herdr::pane: pane session terminated pane=7 pid=188555 signal=Hangup
+2026-10-16T00:14:00.395116Z  WARN herdr::app::actions: PaneDied for unknown pane pane=7
+2026-10-16T00:14:05.514568Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json backup_path=/home/rhosm/.config/herdr/session-snapshots/session-000000000000000000001792109645396574916-137129-0.json
+2026-10-16T00:14:05.622127Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T00:14:15.151358Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T00:14:15.151384Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T00:14:15.151412Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T00:14:15.151415Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T00:14:20.770952Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T00:16:24.064286Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:16:24.064332Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:16:24.064365Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:16:24.064368Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:16:29.231375Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T00:18:03.991348Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T00:18:03.991381Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T00:18:03.991409Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T00:18:03.991412Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T00:18:09.221677Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T00:18:12.444990Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T00:18:12.445031Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T00:18:12.445062Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T00:18:12.445065Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T00:18:17.766922Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T00:18:22.785339Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:18:22.785367Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:18:22.785396Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:18:22.785400Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:18:28.916870Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T00:19:18.136403Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-16T00:26:42.639625Z  INFO herdr::server::headless: client detached client_id=16
+2026-10-16T00:26:57.807265Z  INFO herdr::server::headless: client connected client_id=18 cols=169 rows=44 cell_width_px=9 cell_height_px=20 surface_active=true render_encoding=SemanticFrame
+2026-10-16T00:27:06.940352Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:27:06.940383Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:27:07.761414Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T00:27:07.761437Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T00:27:07.761466Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T00:27:07.761469Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T00:27:12.911382Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T00:27:13.487501Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T00:27:13.487529Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T00:27:13.487559Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T00:27:13.487563Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T00:27:18.614379Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T00:27:31.284283Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:27:31.284311Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:27:31.284339Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:27:31.284342Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:27:37.162199Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T00:28:06.715945Z  INFO herdr::server::headless::lifecycle: server shutdown initiated reason=SIGTERM
+2026-10-16T00:28:06.766032Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-10-16T00:28:07.849875Z ERROR herdr::logging: failed to save session event="persist.save" subsystem="persist" outcome="error" path=/home/rhosm/.config/herdr/session.json err="No such file or directory (os error 2)"
+2026-10-16T00:28:07.849899Z  INFO herdr::server::headless: headless server exiting
+2026-10-16T00:28:07.850758Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: None }"
+2026-10-16T00:28:07.854296Z  INFO herdr::pane: pane session terminated pane=1 pid=137147 signal=Hangup
+2026-10-16T00:28:07.856975Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 1, signal: None }"
+2026-10-16T00:28:07.859773Z  INFO herdr::pane: pane session terminated pane=2 pid=137150 signal=Hangup
+2026-10-16T00:28:07.860728Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 1, signal: None }"
+2026-10-16T00:28:07.863638Z  INFO herdr::pane: pane session terminated pane=4 pid=149489 signal=Hangup
+2026-10-16T00:28:07.864238Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=137129
+2026-10-16T00:28:21.713192Z  INFO herdr::api::server: api server listening path=/home/rhosm/.config/herdr/herdr.sock
+2026-10-16T00:28:21.714036Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=20000000
+2026-10-16T00:28:21.714732Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=209960
+2026-10-16T00:28:21.714869Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=24 cols=80 scrollback_limit_bytes=20000000
+2026-10-16T00:28:21.715399Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=209963
+2026-10-16T00:28:21.715510Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=24 cols=80 scrollback_limit_bytes=20000000
+2026-10-16T00:28:21.716079Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=209966
+2026-10-16T00:28:21.716162Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=3
+2026-10-16T00:28:21.716170Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=20000000
+2026-10-16T00:28:21.744827Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-16T00:28:21.744989Z  INFO herdr::server::headless::bootstrap: restored session already has workspaces; ignoring startup cwd cwd=/home/rhosm
+2026-10-16T00:28:21.745062Z  INFO herdr::server::headless: client protocol socket listening path=/home/rhosm/.config/herdr/herdr-client.sock
+2026-10-16T00:28:21.745081Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/rhosm/.config/herdr/herdr.sock client_socket=/home/rhosm/.config/herdr/herdr-client.sock
+2026-10-16T00:28:21.745165Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=209942
+2026-10-16T00:28:21.766274Z  INFO herdr::server::headless: client connected client_id=2 cols=169 rows=44 cell_width_px=9 cell_height_px=20 surface_active=true render_encoding=SemanticFrame
+2026-10-16T00:29:16.385840Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T00:29:16.385870Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T00:29:16.385895Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T00:29:16.385899Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T00:29:20.946953Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T00:29:20.946981Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T00:29:20.947013Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T00:29:20.947017Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T00:29:26.159517Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json backup_path=/home/rhosm/.config/herdr/session-snapshots/session-000000000000000000001792110565948813724-209942-0.json
+2026-10-16T00:29:26.274223Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T00:29:56.077941Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:29:56.077973Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:29:56.077993Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:29:56.077995Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:30:01.999899Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T00:31:03.620405Z  INFO herdr::server::headless: client detached client_id=2
+2026-10-16T00:31:19.945680Z  INFO herdr::server::headless: client connected client_id=4 cols=161 rows=44 cell_width_px=9 cell_height_px=20 surface_active=true render_encoding=SemanticFrame
+2026-10-16T00:31:30.761727Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T00:31:30.761766Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T00:31:30.761801Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T00:31:30.761804Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T00:31:35.873746Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T00:31:51.027740Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:31:51.027763Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:31:51.027784Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:31:51.027787Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:31:56.208549Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T00:33:49.608639Z  INFO herdr::server::headless: client connected client_id=6 cols=191 rows=61 cell_width_px=9 cell_height_px=20 surface_active=true render_encoding=SemanticFrame
+2026-10-16T00:33:53.199003Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T00:33:53.199027Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T00:33:53.199054Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T00:33:53.199058Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T00:33:58.298217Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T00:34:26.224965Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:34:26.224988Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:34:26.225009Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:34:26.225012Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:34:27.471484Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T00:34:27.471517Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T00:34:27.471538Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T00:34:27.471541Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T00:34:29.336276Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:34:29.336302Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:34:29.336324Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:34:29.336326Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:34:30.513457Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T00:34:30.513481Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T00:34:30.513501Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T00:34:30.513503Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T00:34:35.192422Z  INFO herdr::server::headless: client detached client_id=4
+2026-10-16T00:34:35.620360Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T00:35:10.798829Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:35:10.798855Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:35:10.798875Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:35:10.798878Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:35:15.950274Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T00:35:18.228636Z  INFO herdr::server::headless: client detached client_id=6
+2026-10-16T00:43:59.931159Z  INFO herdr::server::headless: client connected client_id=8 cols=181 rows=49 cell_width_px=9 cell_height_px=20 surface_active=true render_encoding=SemanticFrame
+2026-10-16T00:46:02.984256Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T00:46:02.984282Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T00:46:02.984303Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T00:46:02.984306Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T00:46:07.876420Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T00:46:07.876446Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T00:46:07.876477Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T00:46:07.876481Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T00:46:13.024181Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json backup_path=/home/rhosm/.config/herdr/session-snapshots/session-000000000000000000001792111572878789205-209942-0.json
+2026-10-16T00:46:13.122366Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T00:51:17.196182Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:51:17.196212Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:51:17.196244Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:51:17.196248Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:51:18.827935Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T00:51:18.827961Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T00:51:18.827993Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T00:51:18.827997Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T00:51:22.750051Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:51:22.750083Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:51:22.750112Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:51:22.750116Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:51:27.860797Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T00:51:29.903013Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T00:51:29.903040Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T00:51:29.903068Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T00:51:29.903072Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T00:51:35.003696Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T00:52:28.748989Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T00:52:28.749016Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T00:52:28.749036Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T00:52:28.749039Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T00:52:33.846700Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T00:54:10.646056Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:54:10.646085Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:54:10.646115Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T00:54:10.646128Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T00:54:12.709294Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T00:54:12.709321Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T00:54:12.709353Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T00:54:12.709357Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T00:54:18.471141Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T00:58:21.746023Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-16T01:00:22.032379Z  INFO herdr::server::headless: client detached client_id=8
+2026-10-16T01:00:26.414339Z  INFO herdr::platform::linux::shutdown: host shutdown requested; preserving session before pane termination
+2026-10-16T01:00:26.414391Z  INFO herdr::server::headless::lifecycle: server shutdown initiated reason=host shutdown
+2026-10-16T01:00:26.464456Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-10-16T01:00:26.555105Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T01:00:26.555120Z  INFO herdr::server::headless: headless server exiting
+2026-10-16T01:00:26.555928Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: None }"
+2026-10-16T01:00:26.559969Z  INFO herdr::pane: pane session terminated pane=1 pid=209960 signal=Hangup
+2026-10-16T01:00:26.560624Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 1, signal: None }"
+2026-10-16T01:00:26.563108Z  INFO herdr::platform::unix_common: ignoring SIGHUP; server keeps running
+2026-10-16T01:00:26.565027Z  INFO herdr::pane: pane session terminated pane=2 pid=209963 signal=Hangup
+2026-10-16T01:00:26.594433Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 1, signal: None }"
+2026-10-16T01:00:26.610804Z  INFO herdr::pane: pane session terminated pane=3 pid=209966 signal=Hangup
+2026-10-16T01:00:26.611840Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=209942
+2026-10-16T09:47:51.300000Z  INFO herdr::api::server: api server listening path=/home/rhosm/.config/herdr/herdr.sock
+2026-10-16T09:47:51.360759Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=20000000
+2026-10-16T09:47:51.361533Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=21515
+2026-10-16T09:47:51.361783Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=24 cols=80 scrollback_limit_bytes=20000000
+2026-10-16T09:47:51.362311Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=21518
+2026-10-16T09:47:51.362429Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=24 cols=80 scrollback_limit_bytes=20000000
+2026-10-16T09:47:51.362974Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=21521
+2026-10-16T09:47:51.363054Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=3
+2026-10-16T09:47:51.363067Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=20000000
+2026-10-16T09:47:51.504626Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-16T09:47:51.505155Z  INFO herdr::server::headless::bootstrap: restored session already has workspaces; ignoring startup cwd cwd=/home/rhosm
+2026-10-16T09:47:51.505225Z  INFO herdr::server::headless: client protocol socket listening path=/home/rhosm/.config/herdr/herdr-client.sock
+2026-10-16T09:47:51.505250Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/rhosm/.config/herdr/herdr.sock client_socket=/home/rhosm/.config/herdr/herdr-client.sock
+2026-10-16T09:47:51.505330Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=21497
+2026-10-16T09:47:51.808953Z  INFO herdr::server::headless: client connected client_id=2 cols=161 rows=44 cell_width_px=9 cell_height_px=20 surface_active=true render_encoding=SemanticFrame
+2026-10-16T09:48:04.590811Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T09:48:04.590838Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T09:48:09.749519Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json backup_path=/home/rhosm/.config/herdr/session-snapshots/session-000000000000000000001792144089634211210-21497-0.json
+2026-10-16T09:48:09.839728Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T09:54:09.944799Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T09:54:09.944826Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T09:54:09.944847Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T09:54:09.944850Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T09:54:15.077149Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T09:58:21.701480Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T09:58:21.701506Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T09:58:21.701529Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T09:58:21.701531Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T09:58:27.854365Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T10:00:28.079292Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T10:00:28.079310Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T10:00:28.079328Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T10:00:28.079330Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T10:00:33.186261Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T10:00:41.520924Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T10:00:41.520948Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T10:00:41.520969Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T10:00:41.520971Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T10:00:46.657200Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T10:03:48.375385Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T10:03:48.375413Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T10:03:48.375439Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T10:03:48.375442Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T10:03:53.742125Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json backup_path=/home/rhosm/.config/herdr/session-snapshots/session-000000000000000000001792145033376817017-21497-0.json
+2026-10-16T10:03:53.840865Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T10:05:11.016098Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T10:05:11.016124Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T10:05:11.016145Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T10:05:11.016147Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T10:05:16.259113Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T10:05:18.143673Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T10:05:18.143700Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T10:05:18.143728Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T10:05:18.143732Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T10:05:23.421534Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T10:17:51.505817Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-16T10:42:42.298946Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T10:42:42.298972Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T10:42:42.298994Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T10:42:42.298997Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T10:42:47.405525Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json backup_path=/home/rhosm/.config/herdr/session-snapshots/session-000000000000000000001792147367300608062-21497-0.json
+2026-10-16T10:42:47.511487Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T10:45:15.964477Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T10:45:15.964504Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T10:45:15.964527Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T10:45:15.964530Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T10:45:17.806344Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T10:45:17.806419Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T10:45:17.806453Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T10:45:17.806456Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T10:45:22.914461Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T10:45:27.029757Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T10:45:27.029783Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T10:45:27.029814Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-16T10:45:27.029818Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-10-16T10:45:32.128145Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T10:46:12.753195Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T10:46:12.753225Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T10:46:12.753246Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-16T10:46:12.753248Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-16T10:46:17.859210Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3
+2026-10-16T10:47:51.506715Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-16T10:52:09.861332Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T10:52:09.861365Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T10:52:09.861393Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-16T10:52:09.861396Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-16T10:52:14.967022Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/rhosm/.config/herdr/session.json workspaces=3

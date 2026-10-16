@@ -340,3 +340,37 @@
 2026-10-15T23:20:51.929841Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=177795
 2026-10-15T23:20:51.929856Z  INFO herdr::client: connecting to server path=/home/rhosm/.config/herdr/herdr-client.sock
 2026-10-15T23:20:51.972868Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.5
+2026-10-15T23:44:54.138841Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=188294
+2026-10-15T23:44:54.138870Z  INFO herdr::client: connecting to server path=/home/rhosm/.config/herdr/herdr-client.sock
+2026-10-15T23:44:54.333174Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.5
+2026-10-15T23:48:09.587924Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=188294
+2026-10-16T00:12:39.229708Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=200015
+2026-10-16T00:12:39.229727Z  INFO herdr::client: connecting to server path=/home/rhosm/.config/herdr/herdr-client.sock
+2026-10-16T00:12:39.417194Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.5
+2026-10-16T00:26:42.639539Z  INFO herdr::client: client terminal unavailable; detaching err=Input/output error (os error 5)
+2026-10-16T00:26:42.640521Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=200015
+2026-10-16T00:26:57.795462Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=208590
+2026-10-16T00:26:57.795484Z  INFO herdr::client: connecting to server path=/home/rhosm/.config/herdr/herdr-client.sock
+2026-10-16T00:26:57.807255Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.5
+2026-10-16T00:28:06.716306Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=208590
+2026-10-16T00:28:06.716350Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=177795
+2026-10-16T00:28:21.762807Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=209941
+2026-10-16T00:28:21.762827Z  INFO herdr::client: connecting to server path=/home/rhosm/.config/herdr/herdr-client.sock
+2026-10-16T00:28:21.766270Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.5
+2026-10-16T00:31:03.620309Z  INFO herdr::client: client terminal unavailable; detaching err=Input/output error (os error 5)
+2026-10-16T00:31:03.621200Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=209941
+2026-10-16T00:31:19.845981Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=212008
+2026-10-16T00:31:19.845999Z  INFO herdr::client: connecting to server path=/home/rhosm/.config/herdr/herdr-client.sock
+2026-10-16T00:31:19.945667Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.5
+2026-10-16T00:33:49.465317Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=213742
+2026-10-16T00:33:49.465344Z  INFO herdr::client: connecting to server path=/home/rhosm/.config/herdr/herdr-client.sock
+2026-10-16T00:33:49.608634Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.5
+2026-10-16T00:34:35.193128Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=212008
+2026-10-16T00:35:18.229328Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=213742
+2026-10-16T00:43:59.789641Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=218954
+2026-10-16T00:43:59.789667Z  INFO herdr::client: connecting to server path=/home/rhosm/.config/herdr/herdr-client.sock
+2026-10-16T00:43:59.931156Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.5
+2026-10-16T01:00:22.033559Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=218954
+2026-10-16T09:47:51.549296Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=21496
+2026-10-16T09:47:51.589715Z  INFO herdr::client: connecting to server path=/home/rhosm/.config/herdr/herdr-client.sock
+2026-10-16T09:47:51.808961Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.5

@@ -236,6 +236,20 @@ backup() {
 
 mkcd() { mkdir -p "$1" && cd "$1" }
 
+function y() {
+    local tmp cwd
+    tmp="$(mktemp -t 'yazi-cwd.XXXXXX')" || return
+
+    command yazi "$@" --cwd-file="$tmp"
+    if [[ -f "$tmp" ]]; then
+        cwd="$(<"$tmp")"
+        if [[ -n "$cwd" && -d "$cwd" ]]; then
+            builtin cd -- "$cwd"
+        fi
+    fi
+
+    command rm -f -- "$tmp"
+}
 extract() {
   case "$1" in
     *.tar.*|*.tgz|*.tbz2) tar xf "$1" ;;
@@ -304,6 +318,8 @@ alias dre='sudo dnf remove'
 alias dau='sudo dnf autoremove'
 alias drp='dnf repoquery'
 alias drp-ui='dnf repoquery --userinstalled'
+alias dli='dnf list'
+alias dli-i='dnf list --installed'
 
 # GIT
 # CHANGED: noglob, because extended_glob makes `git show HEAD^` fail with
@@ -317,12 +333,13 @@ alias gpu='git push'
 alias glo='git log --oneline --graph --decorate'
 
 # My random commands
-alias ki='kitten icat'
+alias tg='timg'
 alias nv='nvim'
 alias dots='z ~/Git/dotfiles/'
 alias home='z ~'
 alias grubup="sudo grub2-mkconfig -o /boot/grub2/grub.cfg"
 alias tarnow='tar -acf '
+alias hdr='herdr'
 # CHANGED: -z only handled gzip; plain -x auto-detects the compression
 alias untar='tar -xvf '
 alias wget='wget -c '
