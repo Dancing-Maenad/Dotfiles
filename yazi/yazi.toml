@@ -6,6 +6,9 @@
 # Parent | current directory | preview
 ratio = [1, 4, 3]
 
+# yazi.toml, under [mgr]
+linemode = "size_and_mtime"
+
 # Directories first, then natural alphabetical order
 sort_by = "natural"
 sort_sensitive = false
@@ -13,7 +16,7 @@ sort_reverse = false
 sort_dir_first = true
 
 # Display last modification time beside each entry
-linemode = "mtime"
+# linemode = "mtime"
 
 # Show dotfiles; use Yazi's filter when a directory is too noisy
 show_hidden = true
