@@ -72,7 +72,7 @@ keymap = [
 	{ on = "<S-Enter>", run = "open --interactive",          desc = "Open selected files interactively" },
 	{ on = "y",         run = "yank",                        desc = "Yank selected files (copy)" },
 	{ on = "x",         run = "yank --cut",                  desc = "Yank selected files (cut)" },
-	{ on = "e",         run = 'shell --block -- nvim %s',    desc = "Edit selected file(s) in Neovim" },
+  { on = "e",         run = 'shell --block -- set -- %s; [ $# -eq 0 ] && set -- %h; nvim "$@"', desc = "Edit selected files, or the hovered file, in Neovim" },
 	{ on = "p",         run = "paste",                       desc = "Paste yanked files" },
 	{ on = "P",         run = "paste --force",               desc = "Paste yanked files (overwrite if the destination exists)" },
 	{ on = "-",         run = "link",                        desc = "Symlink the absolute path of yanked files" },
