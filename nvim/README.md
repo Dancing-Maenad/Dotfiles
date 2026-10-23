@@ -1,9 +1,14 @@
-**This repo is supposed to be used as config by NvChad users!**
+# Neovim config
 
-- The main nvchad repo (NvChad/NvChad) is used as a plugin by this repo.
-- So you just import its modules , like `require "nvchad.options" , require "nvchad.mappings"`
-- So you can delete the .git from this repo ( when you clone it locally ) or fork it :)
+Install:
+    mv ~/.config/nvim ~/.config/nvim.nvchad.bak     # back up NvChad
+    mv ~/.local/share/nvim ~/.local/share/nvim.bak  # optional clean slate
+    cp -r nvim ~/.config/nvim
+    nvim
 
-# Credits
+Requirements: Neovim 0.11+, git, a C compiler, tree-sitter CLI, fzf, ripgrep,
+a Nerd Font in your terminal. Optional: lazygit.
 
-1) Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
+Keys (leader = Space): <leader>ff files, <leader>fg grep, <leader>e explorer,
+<leader>gg lazygit, s flash-jump, <C-\> terminal, <C-s> save. Press <leader> and
+wait to see everything via which-key.
