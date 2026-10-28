@@ -1,6 +1,6 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 palette = "noctalia"
-scan_timeout = 100
+scan_timeout = 150
 command_timeout = 1000
 format = """
 [](red)\

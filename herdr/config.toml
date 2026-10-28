@@ -23,77 +23,80 @@ kitty_graphics = true
 # work if you comment out the matching lines in kitty.conf (see the notes).
 [keys]
 
-# Core and app
-# ctrl+b is unused in your kitty config. Avoid ctrl+space: your zsh binds it
-# to autosuggest-accept.
+# Core
+
 prefix = "f23"
-help = "prefix+h"
+
+# App
+help = "prefix+?"
 settings = "prefix+s"
 reload_config = "prefix+alt+r"
 detach = "prefix+d"
 goto = "prefix+g"
 open_notification_target = "prefix+o"
 toggle_sidebar = "prefix+b"
-remote_image_paste = "ctrl+v"
+remote_image_paste = "ctrl+alt+v"
 
 # Workspaces
-new_workspace = "prefix+shift+n"
-rename_workspace = "prefix+shift+w"
-close_workspace = "prefix+shift+c"
+new_workspace = "prefix+a"
+rename_workspace = "prefix+t"
+close_workspace = "prefix+c"
 workspace_picker = "prefix+w"
-previous_workspace = "prefix+alt+p"
-next_workspace = "prefix+alt+n"
-switch_workspace = "prefix+shift+1..9"
-new_worktree = "prefix+shift+t"
-open_worktree = "prefix+shift+o"
-remove_worktree = "prefix+shift+r"
+previous_workspace = "prefix+p"
+next_workspace = "prefix+n"
+switch_workspace = "prefix+1..9"
+
+# Worktrees
+new_worktree = "prefix+ctrl+a"
+open_worktree = "prefix+ctrl+o"
+remove_worktree = "prefix+ctrl+r"
 
 # Tabs (kitty used ctrl+shift+[ and ]; those two are kept free here)
-new_tab = "prefix+a"
-rename_tab = "prefix+t"
-close_tab = "prefix+c"
-previous_tab = "prefix+p"
-next_tab     = "prefix+n"
-switch_tab   = "prefix+1..9"
+new_tab = "prefix+shift+a"
+rename_tab = "prefix+shift+t"
+close_tab = "prefix+shift+c"
+previous_tab = "prefix+shift+p"
+next_tab = "prefix+shift+n"
+switch_tab = "prefix+shift+1..9"
 move_tab_previous = "prefix+ctrl+p"
 move_tab_next = "prefix+ctrl+n"
 
 # Panes
-focus_pane_left  = "ctrl+alt+left"
-focus_pane_down  = "ctrl+alt+down"
-focus_pane_up    = "ctrl+alt+up"
-focus_pane_right = "ctrl+alt+right"
-swap_pane_left = "ctrl+shift+left"
-swap_pane_down = "ctrl+shift+down"
-swap_pane_up = "ctrl+shift+up"
-swap_pane_right = "ctrl+shift+right"
+focus_pane_left = "ctrl+alt+h"
+focus_pane_down = "ctrl+alt+j"
+focus_pane_up = "ctrl+alt+k"
+focus_pane_right = "ctrl+alt+l"
+swap_pane_left = "ctrl+shift+h"
+swap_pane_down = "ctrl+shift+j"
+swap_pane_up = "ctrl+shift+k"
+swap_pane_right = "ctrl+shift+l"
 cycle_pane_next = "prefix+tab"
 cycle_pane_previous = "prefix+shift+tab"
 last_pane = "prefix+backspace"
-split_vertical = "prefix+shift+v"
-split_horizontal = "prefix+shift+h"
+split_vertical = "prefix+v"
+split_horizontal = "prefix+h"
 close_pane = "prefix+x"
 zoom = "prefix+z"
-rename_pane = "prefix+shift+p"
+rename_pane = "prefix+m"
 resize_mode = "prefix+r"
-resize_pane_left  = "ctrl+shift+alt+left"
-resize_pane_down  = "ctrl+shift+alt+down"
-resize_pane_up    = "ctrl+shift+alt+up"
-resize_pane_right = "ctrl+shift+alt+right"
+resize_pane_left = "ctrl+shift+alt+h"
+resize_pane_down = "ctrl+shift+alt+j"
+resize_pane_up = "ctrl+shift+alt+k"
+resize_pane_right = "ctrl+shift+alt+l"
 edit_scrollback = "prefix+e"
-clear_pane = "prefix+ctrl+k"
+clear_pane = "prefix+alt+k"
 
 # Agents
-previous_agent = "prefix+ctrl+alt+p"
-next_agent = "prefix+ctrl+alt+n"
+previous_agent = "prefix+alt+p"
+next_agent = "prefix+alt+n"
 focus_agent = "prefix+alt+1..9"
 
 # Navigate mode
-navigate_workspace_up = "k"
-navigate_workspace_down = "j"
+navigate_workspace_up = "up"
+navigate_workspace_down = "down"
 navigate_pane_left = "h"
-navigate_pane_down = "down"
-navigate_pane_up = "up"
+navigate_pane_down = "j"
+navigate_pane_up = "k"
 navigate_pane_right = "l"
 
 

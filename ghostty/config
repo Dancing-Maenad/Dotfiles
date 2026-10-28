@@ -107,6 +107,17 @@ keybind = ctrl+alt+shift+w=close_surface
 # Search (free key now that the hints kittens are gone)
 keybind = ctrl+shift+f=start_search
 
+# Unbinds
+keybind = super+ctrl+shift+j=unbind
+keybind = super+ctrl+bracket_left=unbind
+keybind = super+ctrl+bracket_right=unbind
+keybind = super+ctrl+shift+arrow_up=unbind
+keybind = super+ctrl+shift+arrow_down=unbind
+keybind = super+ctrl+shift+arrow_left=unbind
+keybind = super+ctrl+shift+arrow_right=unbind
+keybind = ctrl+shift+j=unbind
+keybind = ctrl+alt+shift+j=unbind
+
 # ==========================================
 # Colours
 # ==========================================

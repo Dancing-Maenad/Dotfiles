@@ -1,5 +1,5 @@
 return {
-  { "mason-org/mason.nvim", cmd = "Mason", opts = {} },
+  { "mason-org/mason.nvim", cmd = "Mason",       opts = {} },
 
   {
     "neovim/nvim-lspconfig",
@@ -28,7 +28,7 @@ return {
 
       -- Installs servers via Mason and enables them automatically
       require("mason-lspconfig").setup({
-        ensure_installed = { "lua_ls", "bashls", "jsonls", "yamlls", "pyright", "ts_ls" },
+        ensure_installed = { "lua_ls", "bashls", "jsonls", "yamlls", "pyright", "ts_ls", "taplo" },
         automatic_enable = true,
       })
 
@@ -68,5 +68,8 @@ return {
   },
 
   -- LSP progress spinner
-  { "j-hui/fidget.nvim", event = "LspAttach", opts = {} },
+  { "j-hui/fidget.nvim",    event = "LspAttach", opts = {} },
+
+  -- Neovim API knowledge for lua_ls (only loads for Lua files)
+  { "folke/lazydev.nvim",   ft = "lua",          opts = {} },
 }
